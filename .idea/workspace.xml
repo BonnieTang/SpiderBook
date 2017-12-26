@@ -1,17 +1,537 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="a548ecf9-3166-4867-be79-f1bd62c9bd40" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch09/9_2_DynamicSpider/DataOutput.py" afterPath="$PROJECT_DIR$/ch09/DynamicSpider/DataOutput.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch09/9_2_DynamicSpider/HtmlDownloader.py" afterPath="$PROJECT_DIR$/ch09/DynamicSpider/HtmlDownloader.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch09/9_2_DynamicSpider/HtmlParser.py" afterPath="$PROJECT_DIR$/ch09/DynamicSpider/HtmlParser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch09/9_2_DynamicSpider/MTime.db" afterPath="$PROJECT_DIR$/ch09/DynamicSpider/MTime.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch09/9_2_DynamicSpider/SpiderMan.py" afterPath="$PROJECT_DIR$/ch09/DynamicSpider/SpiderMan.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch09/9_2_DynamicSpider/__init__.py" afterPath="$PROJECT_DIR$/ch09/DynamicSpider/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img0.jpg" afterPath="$PROJECT_DIR$/ch05/img0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img1.jpg" afterPath="$PROJECT_DIR$/ch05/img1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img10.jpg" afterPath="$PROJECT_DIR$/ch05/img10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img11.jpg" afterPath="$PROJECT_DIR$/ch05/img11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img12.jpg" afterPath="$PROJECT_DIR$/ch05/img12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img13.jpg" afterPath="$PROJECT_DIR$/ch05/img13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img14.jpg" afterPath="$PROJECT_DIR$/ch05/img14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img15.jpg" afterPath="$PROJECT_DIR$/ch05/img15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img16.jpg" afterPath="$PROJECT_DIR$/ch05/img16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img17.jpg" afterPath="$PROJECT_DIR$/ch05/img17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img2.jpg" afterPath="$PROJECT_DIR$/ch05/img2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img3.jpg" afterPath="$PROJECT_DIR$/ch05/img3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img4.jpg" afterPath="$PROJECT_DIR$/ch05/img4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img5.jpg" afterPath="$PROJECT_DIR$/ch05/img5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img6.jpg" afterPath="$PROJECT_DIR$/ch05/img6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img7.jpg" afterPath="$PROJECT_DIR$/ch05/img7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img8.jpg" afterPath="$PROJECT_DIR$/ch05/img8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/img9.jpg" afterPath="$PROJECT_DIR$/ch05/img9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SpiderBook.iml" afterPath="$PROJECT_DIR$/.idea/SpiderBook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/5.3.py" afterPath="$PROJECT_DIR$/ch05/5.3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/qiye.csv" afterPath="$PROJECT_DIR$/ch05/qiye.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/qiye.json" afterPath="$PROJECT_DIR$/ch05/qiye.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/DataOutput.py" afterPath="$PROJECT_DIR$/ch06/DataOutput.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/HtmlDownloader.py" afterPath="$PROJECT_DIR$/ch06/HtmlDownloader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/HtmlParser.py" afterPath="$PROJECT_DIR$/ch06/HtmlParser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/SpiderMan.py" afterPath="$PROJECT_DIR$/ch06/SpiderMan.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/URLManager.py" afterPath="$PROJECT_DIR$/ch06/URLManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/baike.html" afterPath="$PROJECT_DIR$/ch06/baike.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch06/output.html" afterPath="$PROJECT_DIR$/ch06/output.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch07/ControlNode/DataOutput.py" afterPath="$PROJECT_DIR$/ch07/ControlNode/DataOutput.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch07/ControlNode/NodeManager.py" afterPath="$PROJECT_DIR$/ch07/ControlNode/NodeManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch07/ControlNode/UrlManager.py" afterPath="$PROJECT_DIR$/ch07/ControlNode/UrlManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch07/ControlNode/new_urls.txt" afterPath="$PROJECT_DIR$/ch07/ControlNode/new_urls.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch07/ControlNode/old_urls.txt" afterPath="$PROJECT_DIR$/ch07/ControlNode/old_urls.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch07/SpiderNode/SpiderWork.py" afterPath="$PROJECT_DIR$/ch07/SpiderNode/SpiderWork.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch08/8.1.py" afterPath="$PROJECT_DIR$/ch08/8.1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch08/8.2.py" afterPath="$PROJECT_DIR$/ch08/8.2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch08/8.3.py" afterPath="$PROJECT_DIR$/ch08/8.3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch09/9.3.5.js" afterPath="$PROJECT_DIR$/ch09/9.3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch09/loadspeed.js" afterPath="$PROJECT_DIR$/ch09/loadspeed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch09/netmonitor.js" afterPath="$PROJECT_DIR$/ch09/netmonitor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch09/pageload.js" afterPath="$PROJECT_DIR$/ch09/pageload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch11/APISpider/SpiderMan.py" afterPath="$PROJECT_DIR$/ch11/APISpider/SpiderMan.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpiderBook$8_3.coverage" NAME="8.3 Coverage Results" MODIFIED="1514252529684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch08" />
+    <SUITE FILE_PATH="coverage/SpiderBook$lxml_csv.coverage" NAME="lxml_csv Coverage Results" MODIFIED="1513907294673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/SpiderBook$4_2_2_2.coverage" NAME="4.2.2.2 Coverage Results" MODIFIED="1513838991883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$re_match.coverage" NAME="re_match Coverage Results" MODIFIED="1513843513577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$SpiderMan.coverage" NAME="SpiderMan Coverage Results" MODIFIED="1514260528191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch09/DynamicSpider" />
+    <SUITE FILE_PATH="coverage/SpiderBook$bf4_example.coverage" NAME="bf4_example Coverage Results" MODIFIED="1513849985253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$SpiderWork.coverage" NAME="SpiderWork Coverage Results" MODIFIED="1514163398345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch07/SpiderNode" />
+    <SUITE FILE_PATH="coverage/SpiderBook$4_3_2.coverage" NAME="4.3.2 Coverage Results" MODIFIED="1513845649090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$4_2_2_1.coverage" NAME="4.2.2.1 Coverage Results" MODIFIED="1513838851706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$csv_test.coverage" NAME="csv_test Coverage Results" MODIFIED="1513906862541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/SpiderBook$5_3.coverage" NAME="5.3 Coverage Results" MODIFIED="1513929738477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/SpiderBook$re_split.coverage" NAME="re_split Coverage Results" MODIFIED="1513839778414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$NodeManager.coverage" NAME="NodeManager Coverage Results" MODIFIED="1514163378266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch07/ControlNode" />
+    <SUITE FILE_PATH="coverage/SpiderBook$5_1_1.coverage" NAME="5.1.1 Coverage Results" MODIFIED="1513859803214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/SpiderBook$seputu.coverage" NAME="seputu Coverage Results" MODIFIED="1513905415694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/SpiderBook$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1513907792304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/SpiderBook$hashlib_test.coverage" NAME="hashlib_test Coverage Results" MODIFIED="1513995481179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch07/ControlNode" />
+    <SUITE FILE_PATH="coverage/SpiderBook$taskmanager.coverage" NAME="taskmanager Coverage Results" MODIFIED="1514168712287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch07/manager" />
+    <SUITE FILE_PATH="coverage/SpiderBook$8_2.coverage" NAME="8.2 Coverage Results" MODIFIED="1514202564157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch08" />
+    <SUITE FILE_PATH="coverage/SpiderBook$bf4_find.coverage" NAME="bf4_find Coverage Results" MODIFIED="1513852433038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$cnblogs_blog.coverage" NAME="cnblogs_blog Coverage Results" MODIFIED="1513928951891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$taskworker.coverage" NAME="taskworker Coverage Results" MODIFIED="1514168720272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch07/manager" />
+    <SUITE FILE_PATH="coverage/SpiderBook$re_sub.coverage" NAME="re_sub Coverage Results" MODIFIED="1513929349926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$8_1.coverage" NAME="8.1 Coverage Results" MODIFIED="1514202758464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch08" />
+    <SUITE FILE_PATH="coverage/SpiderBook$bf4_select.coverage" NAME="bf4_select Coverage Results" MODIFIED="1513853560161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/SpiderBook$lxml_tree.coverage" NAME="lxml_tree Coverage Results" MODIFIED="1513854011778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DataOutput.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch06/DataOutput.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlDownloader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch06/HtmlDownloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataOutput.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch07/ControlNode/DataOutput.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_urls.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch07/ControlNode/new_urls.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch07/ControlNode/NodeManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="old_urls.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch07/ControlNode/old_urls.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch07/ControlNode/UrlManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch08/8.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <marker date="1514202400000" expanded="true" signature="174:263" ph="CREATE TABLE... person" />
+                <marker date="1514202400000" expanded="true" signature="299:340" ph="INSERT INTO person... " />
+                <marker date="1514202400000" expanded="true" signature="365:409" ph="INSERT INTO person... " />
+                <marker date="1514202400000" expanded="true" signature="445:489" ph="INSERT INTO person... " />
+                <marker date="1514202400000" expanded="true" signature="551:571" ph="SELECT * FRO... person" />
+                <marker date="1514202400000" expanded="true" signature="588:608" ph="SELECT * FRO... person" />
+                <marker date="1514202400000" expanded="true" signature="681:701" ph="SELECT * FRO... person" />
+                <marker date="1514202400000" expanded="true" signature="757:794" ph="UPDATE perso... " />
+                <marker date="1514202400000" expanded="true" signature="823:853" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch08/8.3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch08/8.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <marker date="1514202744000" expanded="true" signature="134:207" ph="CREATE TABLE... person" />
+                <marker date="1514202744000" expanded="true" signature="246:276" ph="INSERT INTO person... " />
+                <marker date="1514202744000" expanded="true" signature="301:334" ph="INSERT INTO person... " />
+                <marker date="1514202744000" expanded="true" signature="373:406" ph="INSERT INTO person... " />
+                <marker date="1514202744000" expanded="true" signature="460:480" ph="SELECT * FRO... person" />
+                <marker date="1514202744000" expanded="true" signature="553:573" ph="SELECT * FRO... person" />
+                <marker date="1514202744000" expanded="true" signature="629:664" ph="UPDATE perso... " />
+                <marker date="1514202744000" expanded="true" signature="693:722" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DynamicSpider</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/ch02</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ch04/re_split.py" />
+        <option value="$PROJECT_DIR$/ch04/re_split_find.py" />
+        <option value="$PROJECT_DIR$/ch04/re_match.py" />
+        <option value="$PROJECT_DIR$/ch04/4.3.2.py" />
+        <option value="$PROJECT_DIR$/ch04/bf4_example.py" />
+        <option value="$PROJECT_DIR$/ch04/bf4_find.py" />
+        <option value="$PROJECT_DIR$/ch04/bf4_select.py" />
+        <option value="$PROJECT_DIR$/ch04/lxml_tree.py" />
+        <option value="$PROJECT_DIR$/ch05/seputu.py" />
+        <option value="$PROJECT_DIR$/ch05/csv_test.py" />
+        <option value="$PROJECT_DIR$/ch05/lxml_csv.py" />
+        <option value="$PROJECT_DIR$/ch04/re_sub.py" />
+        <option value="$PROJECT_DIR$/ch05/5.3.py" />
+        <option value="$PROJECT_DIR$/ch06/URLManager.py" />
+        <option value="$PROJECT_DIR$/ch06/HtmlParser.py" />
+        <option value="$PROJECT_DIR$/ch06/HtmlDownloader.py" />
+        <option value="$PROJECT_DIR$/ch04/cnblogs_blog.py" />
+        <option value="$PROJECT_DIR$/ch06/output.html" />
+        <option value="$PROJECT_DIR$/ch06/SpiderMan.py" />
+        <option value="$PROJECT_DIR$/ch06/DataOutput.py" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/UrlManager.py" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/hashlib_test.py" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/NodeManager.py" />
+        <option value="$PROJECT_DIR$/ch07/SpiderNode/SpiderWork.py" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/new_urls.txt" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/old_urls.txt" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/baike_2017_12_25_08_56_18.html" />
+        <option value="$PROJECT_DIR$/ch07/ControlNode/DataOutput.py" />
+        <option value="$PROJECT_DIR$/ch11/APISpider/SpiderMan.py" />
+        <option value="$PROJECT_DIR$/ch07/manager/taskmanager.py" />
+        <option value="$PROJECT_DIR$/ch07/manager/taskworker.py" />
+        <option value="$PROJECT_DIR$/ch08/8.2.py" />
+        <option value="$PROJECT_DIR$/ch08/8.1.py" />
+        <option value="$PROJECT_DIR$/ch08/8.3.py" />
+        <option value="$PROJECT_DIR$/ch09/9_2_DynamicSpider/DataOutput.py" />
+        <option value="$PROJECT_DIR$/ch09/9_2_DynamicSpider/HtmlDownloader.py" />
+        <option value="$PROJECT_DIR$/ch09/9_2_DynamicSpider/HtmlParser.py" />
+        <option value="$PROJECT_DIR$/ch09/9_2_DynamicSpider/SpiderMan.py" />
+        <option value="$PROJECT_DIR$/ch09/pageload.js" />
+        <option value="$PROJECT_DIR$/ch09/loadspeed.js" />
+        <option value="$PROJECT_DIR$/ch09/pageload2.js" />
+        <option value="$PROJECT_DIR$/ch09/netmonitor.js" />
+        <option value="$PROJECT_DIR$/ch09/DynamicSpider/HtmlParser.py" />
+        <option value="$PROJECT_DIR$/ch09/DynamicSpider/SpiderMan.py" />
+        <option value="$PROJECT_DIR$/ch09/9.3.5.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
+              <item name="ControlNode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
+              <item name="SpiderNode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiderBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiderBook" type="462c0819:PsiDirectoryNode" />
+              <item name="ch10" type="462c0819:PsiDirectoryNode" />
+              <item name="baidu_login" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch04" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.SpiderMan">
+    <configuration name="8.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpiderBook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/8.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="8.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpiderBook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/8.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="8.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpiderBook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/8.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="SpiderMan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch09/DynamicSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpiderBook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch09/DynamicSpider/SpiderMan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="taskworker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpiderBook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/manager/taskworker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.taskworker" />
+      <item index="1" class="java.lang.String" itemvalue="Python.8.2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.8.1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.8.3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SpiderMan" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.SpiderMan" />
+        <item index="1" class="java.lang.String" itemvalue="Python.8.3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.8.1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.8.2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.taskworker" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="a548ecf9-3166-4867-be79-f1bd62c9bd40" name="Default" comment="" />
       <created>1492078879583</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -19,11 +539,486 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40130505" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39477977" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2584814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ch08/8.3.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ch04/re_complie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/seputu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/output.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="0" column="283" lean-forward="true" selection-start-line="0" selection-start-column="283" selection-end-line="0" selection-end-column="283" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/re_sub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/5.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/cnblogs_blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="72" />
+          <folding>
+            <element signature="e#14#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/hashlib_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/baike_2017_12_25_08_55_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/baike_2017_12_25_08_56_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/baike_2017_12_25_08_56_18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch11/APISpider/SpiderMan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9405">
+          <caret line="638" column="16" lean-forward="false" selection-start-line="638" selection-start-column="8" selection-end-line="638" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/bf4_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/bf4_find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/bf4_select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/loadspeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/pageload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/evaluate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/pageload2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/qiye.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/netmonitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/9.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/DynamicSpider/SpiderMan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/DynamicSpider/HtmlDownloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/DynamicSpider/DataOutput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <marker date="1514205912000" expanded="true" signature="1016:1052" ph="CREATE TABLE... IF" />
+            <marker date="1514205912000" expanded="true" signature="1493:1833" ph="INSERT INTO missing_value... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/DynamicSpider/HtmlParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/9.3.6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09/9.3.5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/baike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" lean-forward="true" selection-start-line="0" selection-start-column="106" selection-end-line="0" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/HtmlParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/output.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/SpiderMan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/URLManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/manager/taskmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/manager/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/SpiderNode/HtmlDownloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/SpiderNode/HtmlParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/SpiderNode/SpiderWork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/DataOutput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/HtmlDownloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/DataOutput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/new_urls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/NodeManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/old_urls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch07/ControlNode/UrlManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/8.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1514202744000" expanded="true" signature="134:207" ph="CREATE TABLE... person" />
+            <marker date="1514202744000" expanded="true" signature="246:276" ph="INSERT INTO person... " />
+            <marker date="1514202744000" expanded="true" signature="301:334" ph="INSERT INTO person... " />
+            <marker date="1514202744000" expanded="true" signature="373:406" ph="INSERT INTO person... " />
+            <marker date="1514202744000" expanded="true" signature="460:480" ph="SELECT * FRO... person" />
+            <marker date="1514202744000" expanded="true" signature="553:573" ph="SELECT * FRO... person" />
+            <marker date="1514202744000" expanded="true" signature="629:664" ph="UPDATE perso... " />
+            <marker date="1514202744000" expanded="true" signature="693:722" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/8.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <marker date="1514202400000" expanded="true" signature="174:263" ph="CREATE TABLE... person" />
+            <marker date="1514202400000" expanded="true" signature="299:340" ph="INSERT INTO person... " />
+            <marker date="1514202400000" expanded="true" signature="365:409" ph="INSERT INTO person... " />
+            <marker date="1514202400000" expanded="true" signature="445:489" ph="INSERT INTO person... " />
+            <marker date="1514202400000" expanded="true" signature="551:571" ph="SELECT * FRO... person" />
+            <marker date="1514202400000" expanded="true" signature="588:608" ph="SELECT * FRO... person" />
+            <marker date="1514202400000" expanded="true" signature="681:701" ph="SELECT * FRO... person" />
+            <marker date="1514202400000" expanded="true" signature="757:794" ph="UPDATE perso... " />
+            <marker date="1514202400000" expanded="true" signature="823:853" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch08/8.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

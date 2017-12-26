@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 import datetime
 import pymongo
 
@@ -9,23 +9,22 @@ db = client.papers
 collection = db.books
 
 book = {"author": "Mike",
- "text": "My first book!",
- "tags": ["爬虫", "python", "网络"],
-"date": datetime.datetime.utcnow()
- }
-book_id= collection .insert(book)
+        "text": "My first book!",
+        "tags": ["爬虫", "python", "网络"],
+        "date": datetime.datetime.utcnow()
+        }
+book_id = collection.insert(book)
 
 books = [{"author": "Mike",
- "text": "My first book!",
- "tags": ["爬虫", "python", "网络"],
-"date": datetime.datetime.utcnow()
- },{"author": "qiye",
- "text": "My sec book!",
- "tags": ["hack", "python", "渗透"],
-"date": datetime.datetime.utcnow()
- }]
+          "text": "My first book!",
+          "tags": ["爬虫", "python", "网络"],
+          "date": datetime.datetime.utcnow()
+          }, {"author": "qiye",
+              "text": "My sec book!",
+              "tags": ["hack", "python", "渗透"],
+              "date": datetime.datetime.utcnow()
+              }]
 books_id = collection.insert(books)
-
 
 collection.find_one({"author": "qiye"})
 for book in collection.find():
@@ -35,7 +34,6 @@ for book in collection.find({"author": "qiye"}):
 
 collection.find({"author": "qiye"}).count()
 
-collection.update({"author": "qiye"},{"$set":{"text":"python book"}})
+collection.update({"author": "qiye"}, {"$set": {"text": "python book"}})
 
 collection.remove({"author": "qiye"})
-

@@ -9,11 +9,11 @@ def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
 #发件人地址
-from_addr = 'xxxxxxxx@163.com'
+from_addr = 'bnxz09@163.com'
 #邮箱密码
-password = 'pass'
+password = '29121986bntbb'
 #收件人地址
-to_addr = 'xxxxxxxx@qq.com'
+to_addr = '184080470@qq.com'
 #163网易邮箱服务器地址
 smtp_server = 'smtp.163.com'
 #设置邮件信息

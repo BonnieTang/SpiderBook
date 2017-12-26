@@ -1,17 +1,17 @@
-#coding:utf-8
+# coding:utf-8
 
 import MySQLdb
 
-con = MySQLdb.connect(host='localhost', user='root', passwd='', db='test', port=3306, charset='utf8')
+con = MySQLdb.connect(host='localhost', user='root', passwd='123456', db='test', port=3306, charset='utf8')
 cur = con.cursor()
 
 cur.execute(' CREATE TABLE person (id int not null auto_increment primary key,name varchar(20),age int)')
-data="'qiye',20"
-cur.execute(' INSERT INTO person (name,age) VALUES (%s)'%data)
+data = "'qiye',20"
+cur.execute(' INSERT INTO person (name,age) VALUES (%s)' % data)
 
-cur.execute(' INSERT INTO person (name,age) VALUES (%s,%s)',('qiye',20))
+cur.execute(' INSERT INTO person (name,age) VALUES (%s,%s)', ('qiye', 20))
 
-cur.executemany(' INSERT INTO person (name,age) VALUES (%s,%s)',[('marry',20),('jack',20)])
+cur.executemany(' INSERT INTO person (name,age) VALUES (%s,%s)', [('marry', 20), ('jack', 20)])
 
 con.commit()
 

@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 from multiprocessing.managers import BaseManager
 
 from HtmlDownloader import HtmlDownloader
@@ -7,7 +7,7 @@ from HtmlParser import HtmlParser
 
 class SpiderWork(object):
     def __init__(self):
-        #初始化分布式进程中的工作节点的连接工作
+        # 初始化分布式进程中的工作节点的连接工作
         # 实现第一步：使用BaseManager注册获取Queue的方法名称
         BaseManager.register('get_task_queue')
         BaseManager.register('get_result_queue')
@@ -21,36 +21,34 @@ class SpiderWork(object):
         # 实现第三步：获取Queue的对象:
         self.task = self.m.get_task_queue()
         self.result = self.m.get_result_queue()
-        #初始化网页下载器和解析器
+        # 初始化网页下载器和解析器
         self.downloader = HtmlDownloader()
         self.parser = HtmlParser()
         print 'init finish'
 
     def crawl(self):
-        while(True):
+        while (True):
             try:
                 if not self.task.empty():
                     url = self.task.get()
 
-                    if url =='end':
+                    if url == 'end':
                         print '控制节点通知爬虫节点停止工作...'
-                        #接着通知其它节点停止工作
-                        self.result.put({'new_urls':'end','data':'end'})
+                        # 接着通知其它节点停止工作
+                        self.result.put({'new_urls': 'end', 'data': 'end'})
                         return
-                    print '爬虫节点正在解析:%s'%url.encode('utf-8')
+                    print '爬虫节点正在解析:%s' % url.encode('utf-8')
                     content = self.downloader.download(url)
-                    new_urls,data = self.parser.parser(url,content)
-                    self.result.put({"new_urls":new_urls,"data":data})
-            except EOFError,e:
+                    new_urls, data = self.parser.parser(url, content)
+                    self.result.put({"new_urls": new_urls, "data": data})
+            except EOFError, e:
                 print "连接工作节点失败"
                 return
-            except Exception,e:
+            except Exception, e:
                 print e
                 print 'Crawl  fali '
 
 
-
-
-if __name__=="__main__":
+if __name__ == "__main__":
     spider = SpiderWork()
     spider.crawl()
