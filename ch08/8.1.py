@@ -1,7 +1,7 @@
 #coding:utf-8
 import sqlite3
 
-con = sqlite3.connect('D:\test.db')#con = sqlite3.connect(':memory:')
+con = sqlite3.connect('D:\dev\test.db')#con = sqlite3.connect(':memory:')
 cur = con.cursor()
 cur.execute(' CREATE TABLE person (id integer primary key,name varchar(20),age integer)')
 
