@@ -1,12 +1,14 @@
-#coding:utf-8
+# coding:utf-8
 # 创建TCP服务端
 
-#coding:utf-8
+# coding:utf-8
 import socket
 import threading
 import time
+
+
 def dealClient(sock, addr):
-    #第四步：接收传来的数据，并发送给对方数据
+    # 第四步：接收传来的数据，并发送给对方数据
     print('Accept new connection from %s:%s...' % addr)
     sock.send(b'Hello,I am server!')
     while True:
@@ -16,15 +18,17 @@ def dealClient(sock, addr):
             break
         print '-->>%s!' % data.decode('utf-8')
         sock.send(('Loop_Msg: %s!' % data.decode('utf-8')).encode('utf-8'))
-    #第五步：关闭套接字
+    # 第五步：关闭套接字
     sock.close()
     print('Connection from %s:%s closed.' % addr)
-if __name__=="__main__":
-    #第一步：创建一个基于IPv4和TCP协议的Socket
+
+
+if __name__ == "__main__":
+    # 第一步：创建一个基于IPv4和TCP协议的Socket
     # 套接字绑定的IP(127.0.0.1为本机ip)与端口
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind(('127.0.0.1', 9999))
-    #第二步:监听连接
+    # 第二步:监听连接
     s.listen(5)
     print('Waiting for connection...')
     while True:
